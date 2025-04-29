@@ -2,11 +2,21 @@
 
 ## initialisation du git et github
 
+### initialiser le dépot local
 ```bash
 git init 
+```
+
+### envoyer un commit et les changement sur le dépot git
+```bash
 git add nom_du_fichier (ou . pour tout les fichiers)
 git commit -m "commentaire du commit"
 git push
+```
+
+### récupérer les modifications des collaborateurs
+```bash
+git pull
 ```
 
 ## initialisation du projet 
